@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule  ^$ /store-files-in-any-rdbms/ [L]
+  RewriteRule  (.*) /store-files-in-any-rdbms/$1 [L]
+</IfModule>
